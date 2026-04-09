@@ -1,5 +1,10 @@
 # Bus Station QA Project
 
+## Project Links
+- Frontend repo: https://github.com/autolux-cherkasy/acp-front
+## Team Project
+This project was developed as part of a team collaboration (TeamChallenge).
+
 ## Project Overview
 
 Testing of a web application for bus ticket booking system.
