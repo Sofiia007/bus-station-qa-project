@@ -1,2 +1,40 @@
-# bus-station-qa-project
-QA testing project for bus ticket booking web application (manual testing, API, UI, bug reporting)
+# Bus Station QA Project
+
+## Project Overview
+
+Testing of a web application for bus ticket booking system.
+
+## Role
+
+QA Engineer (TeamChallenge project)
+
+## Responsibilities
+
+* Created Test Plan and Test Strategy
+* Performed functional and regression testing
+* Conducted API testing using Postman
+* Executed cross-browser and mobile testing
+* Reported bugs and tracked issues
+* Participated in Agile/Scrum process
+
+## Testing Types
+
+* Functional Testing
+* UI/UX Testing
+* API Testing
+* Integration Testing
+* Performance Testing
+* Security Testing
+
+## Tools
+
+* Jira / ClickUp
+* Postman
+* Chrome DevTools
+* BrowserStack
+
+## Key Achievements
+
+* Identified critical API issues (authorization, empty responses)
+* Found UI/UX bugs across devices
+* Improved product stability through testing
