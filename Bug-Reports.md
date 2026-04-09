@@ -255,16 +255,16 @@ Requests continue indefinitely
 ### Expected result:
 A single request (or limited number of requests) should be sent on page load
 No repeated requests without user interaction unless intentional polling is implemented
-###Additional information:
+### Additional information:
 Issue occurs immediately after page load
 Requests are triggered even when response data does not change
 May indicate infinite re-render or incorrect dependency handling in frontend (e.g. useEffect)
 Can lead to performance degradation and unnecessary server load
- **User impact:**
+ ### **User impact:**
 User cannot select route or time, booking flow is blocked
- **UI note:**
+ ### **UI note:**
 Form remains in loading state ("Завантажуємо рейси..."), fields are disabled
- Retest result: 
+ ### Retest result: 
 The issue is no longer reproducible.
 - No infinite API requests observed after page reload
 - Requests to /api/v1/trips are stable (1–2 requests) and do not repeat continuously
@@ -272,8 +272,8 @@ The issue is no longer reproducible.
 - Trips list loads correctly
 - Route and time selection work as expected
 - UI remains stable (no layout shift during loading)
-Console:
+### Console:
 - No critical errors observed
 - Only non-blocking preload warnings present
-Fix verified.
+### Fix verified.
 
