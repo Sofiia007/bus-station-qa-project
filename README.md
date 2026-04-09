@@ -38,3 +38,10 @@ QA Engineer (TeamChallenge project)
 * Identified critical API issues (authorization, empty responses)
 * Found UI/UX bugs across devices
 * Improved product stability through testing
+
+## Project Artifacts
+* Test Plan
+* Test Strategy
+* Bug Reports
+* QA Checklist (Environment Setup)
+* QA UI Test Plan and Results
